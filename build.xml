@@ -3,7 +3,7 @@
 <project name="blogmark" default="createextension">
 	<taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask" classpath="../build/compiler.jar" />
 
-	<property name="VERSION" value="0.4" />
+	<property name="VERSION" value="0.5" />
 
 	<target name="createextension" depends="closure" description="Assemble the final build extension.zip">
 		<zip destfile="extension_v${VERSION}.zip">

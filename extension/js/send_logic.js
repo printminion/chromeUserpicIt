@@ -22,7 +22,7 @@ function sendToUserpicIt(title, parentUrl, url, msgType, listener) {
 		if (this.readyState == 4) {
 			if (req.status == 200) {
 				var body = req.responseText;
-				var data = eval("(" + req.responseText + ")");
+				var data = JSON.parse(req.responseText );
 
 				if (data.rsp.stat == "fail") {
 					// flushMessage('error',data.rsp.err.msg);

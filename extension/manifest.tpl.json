@@ -1,5 +1,7 @@
 {
-   "background_page": "background.html",
+"background": {
+         "page": "background.html"
+         },
    "browser_action": {
       "default_icon": "images/icon_19.png",
       "default_title": "__MSG_app_name__"
@@ -11,7 +13,7 @@
       "run_at": "document_end",
       "all_frames": true
    } ],
-   
+
    "default_locale": "en",
    "description": "__MSG_app_desc__",
    "icons": {
@@ -20,5 +22,6 @@
    "minimum_chrome_version": "6.0.0",
    "name": "__MSG_app_name__",
    "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*" ],
-   "version": "@VERSION@"
+   "version": "@VERSION@",
+   "manifest_version": 2
 }

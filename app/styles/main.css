@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+/* Will be compiled down to a single stylesheet with your sass files */
+
+html {
+    /* Defaults css for cssmin process */
+}
+
+.crx_mouse_visited {
+    background-color: #bcd5eb !important;
+    outline: 1px solid #5166bb !important;
+}

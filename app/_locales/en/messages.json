@@ -1,0 +1,94 @@
+{
+    "about_google_message": {
+        "description": "About.",
+        "message": "About"
+    },
+    "about_message": {
+        "description": "About message in help.",
+        "message": "UserpicIt, enables you to send images from Chrome to userpic.it with one click."
+    },
+    "about_title_message": {
+        "description": "Section title in help.",
+        "message": "About"
+    },
+    "appDescription": {
+        "description": "Description of the application.",
+        "message": "UserpicIt Extension enables you to send images from Chrome to userpic.it with one click."
+    },
+    "appName": {
+        "description": "Name of the application",
+        "message": "UserpicIt Extension"
+    },
+    "appNameShort": {
+        "description": "Short name of the application",
+        "message": "UserpicIt"
+    },
+    "connectivity_error_message": {
+        "description": "Error message when there is a connection error with the server.",
+        "message": "Connection error."
+    },
+    "device_not_registered_message": {
+        "description": "Error message when we can't match a user to a device.",
+        "message": "Device not registered for user."
+    },
+    "error_sending_message": {
+        "description": "Notice when link cannot be sent. $details$ is automatically replaced with the error text.",
+        "message": "Error sending to phone: $details$",
+        "placeholders": {
+            "details": {
+                "content": "$1",
+                "example": "Failed to send message."
+            }
+        }
+    },
+    "help_message": {
+        "description": "The help message.",
+        "message": "Help"
+    },
+    "invalid_scheme_message": {
+        "description": "Notice when user attempt to send a file link.",
+        "message": "Only http or https pages supported."
+    },
+    "privacy_message": {
+        "description": "Privacy.",
+        "message": "Privacy"
+    },
+    "sending_message": {
+        "description": "Notice when link is being sent to userpic.it.",
+        "message": "Sending to userpic.it..."
+    },
+    "sent_message": {
+        "description": "Notice when link has been successfully sent to userpic.it.",
+        "message": "sent to userpic.it."
+    },
+    "sign_in_message": {
+        "description": "Sign in phrase used in the context of 'Please sign in to UserpicIt'.",
+        "message": "sign in"
+    },
+    "sign_in_required_message": {
+        "description": "Notice when sign in is required. $link$ is automatically replaced with 'sign in'.",
+        "message": "Please $link$ to UserpicIt.",
+        "placeholders": {
+            "link": {
+                "content": "$1",
+                "example": "Sign in link."
+            }
+        }
+    },
+    "sign_out_message": {
+        "description": "Sign out link message.",
+        "message": "Sign out"
+    },
+    "signed_in_message": {
+        "description": "Signed in message.",
+        "message": "Signed in. You are now ready to send links to your phone."
+    },
+    "signed_out_message": {
+        "description": "Signed out message.",
+        "message": "You are now signed out of UserpicIt."
+    },
+    "signed_out_title_message": {
+        "description": "Signed out section title.",
+        "message": "Signed out"
+    }
+}
